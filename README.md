@@ -1,34 +1,12 @@
 # Battleship
 Battleship made with Java. Solo mode, PVP mode and custom mode
 
-# Informations général
-
-Grille de 1 à 10 (colonne), et de A à J (ligne) (Augmentation de cette graille possible)
-
---> Voir architecture client serveur.
-TCP, le serveur vas contenire l'état de la partie, c'est lui qui valide les coups, il empêche la triche, il sync les clients (Choisir asyncio)
-
-## Coté serveur (Classes POO)
-Classe coté serveur : 
-- Game
-- Board
-- Ship
-- Player
-- Server
-
-
-
-
-### Game
-
-- état global
-- tour actuel
 - victoire
 - règles
 
 ### Board
 
-- grille
+- grille[]()
 - placements
 - tirs reçus
 
